@@ -20,12 +20,8 @@
 						   {
 	           data: null,
 	           render: function(data, type, row) {
-	               return '<button class="editBtn" data-id="' +
-	row.id
-	+ '">Edit</button>' +
-	                      '&nbsp;&nbsp;&nbsp;<button class="deleteBtn" data-id="' +
-	row.id
-	+ '">Delete</button>';
+	               return '<button class="editBtn" data-id="' +	row.id 	+ '">Edit</button>' +
+	                      '&nbsp;&nbsp;&nbsp;<button class="deleteBtn" data-id="' + row.id 	+ '">Delete</button>';
 	           }
 	       }
 	   ]
