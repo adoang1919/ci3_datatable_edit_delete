@@ -1,5 +1,5 @@
-# ci3_datatable_edit_delete
-pay attection emp_view.php at below script. and change in module also
+# ci3_datatable_edit_delete --- pay attection emp_view.php at below script. and change in module also
+
 	<script type="text/javascript">
 			$(document).ready(function(){
 			   	$('#empTable').DataTable({
